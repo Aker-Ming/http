@@ -1,0 +1,20 @@
+﻿<html>
+   <!--  action 的含义是使用 哪个CGI程序完成动态页面的生成-->
+   <head>
+   <meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\"> 
+   </head>
+ 
+   <body>
+   <h1>请输入两个数字</h1>
+	<form action="/cgi-bin/test" method="POST">
+	a:<br>
+	<input type="text" name="a" value="10">
+	<br>
+	b:<br>
+	<input type="text" name="b" value="20">
+	<br><br>
+	<input type="submit" value="计算">
+	</form>
+	</body>
+
+</html>
