@@ -1,0 +1,13 @@
+<h1>Hello World</h1>
+{% for item in Job %}
+   {% for value in item %}
+        {% if value == "10086" %}
+        <h3>{{ value }}</h3>
+        {% endif %}
+{% endfor %}
+{% endfor %}
+
+<h1>{{ user }}</h1>
+<h1>{{ test }}</h1>
+
+<img src="../static/logo.png" />
